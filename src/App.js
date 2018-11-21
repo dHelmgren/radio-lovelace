@@ -2,9 +2,13 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import RadioSet from './components/RadioSet';
+
 import songData from './data/tracks.json';
 
-import RadioSet from './components/RadioSet';
+songData.forEach((song, i) => {
+  song.id = i;
+});
 
 class App extends Component {
   render() {
