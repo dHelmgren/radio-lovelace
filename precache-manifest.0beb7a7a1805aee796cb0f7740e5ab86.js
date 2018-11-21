@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "acfda44954b9ecc35a14",
-    "url": "/radio-lovelace/static/css/main.60734c2f.chunk.css"
+    "revision": "4530ac472ff7a5303caf",
+    "url": "/radio-lovelace/static/css/main.ea97eed2.chunk.css"
   },
   {
-    "revision": "acfda44954b9ecc35a14",
-    "url": "/radio-lovelace/static/js/main.acfda449.chunk.js"
+    "revision": "4530ac472ff7a5303caf",
+    "url": "/radio-lovelace/static/js/main.4530ac47.chunk.js"
   },
   {
     "revision": "4c6b97bfd7bb8f9f542d",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/radio-lovelace/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "005e44b788834bd641cfb67b465b14bf",
+    "revision": "5e0727cd680314eb3bc1d0ed001a7b1b",
     "url": "/radio-lovelace/index.html"
   }
 ];

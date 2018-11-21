@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/radio-lovelace/precache-manifest.2a68a0f11acbb48191733dea823bc2b6.js"
+  "/radio-lovelace/precache-manifest.0beb7a7a1805aee796cb0f7740e5ab86.js"
 );
 
 workbox.clientsClaim();
