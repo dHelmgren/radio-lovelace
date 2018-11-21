@@ -13,8 +13,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "GENERATE_SOURCEMAP=false npm run build",
+    "deploy": "gh-pages -d build --remote droberts"
   },
   "eslintConfig": {
     "extends": "react-app"
