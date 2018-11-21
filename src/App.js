@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import songData from './data/tracks.json';
+
 import RadioSet from './components/RadioSet';
 
 class App extends Component {
@@ -9,10 +11,10 @@ class App extends Component {
     return (
       <div className="App">
         <header>
-          <h1 className="page-header--title">Lovelace Radio</h1>
+          <h1 className="page-header--title">Radio Lovelace</h1>
         </header>
         <main className="main">
-          <RadioSet />
+          <RadioSet tracks={songData} />
         </main>
       </div>
     );
