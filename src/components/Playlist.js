@@ -54,4 +54,12 @@ const Playlist = (props) => {
   );
 }
 
+Playlist.propTypes = {
+  tracks: PropTypes.array,
+  side: PropTypes.string,
+  toggleFavorite: PropTypes.func,
+  sendToTop: PropTypes.func,
+  switchLists: PropTypes.func
+}
+
 export default Playlist;
