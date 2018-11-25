@@ -1,6 +1,6 @@
 {
   "name": "lovelace-radio",
-  "homepage": "http://droberts-ada.github.io/radio-lovelace",
+  "homepage": "http://adagold.github.io/radio-lovelace",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +14,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "GENERATE_SOURCEMAP=false npm run build",
-    "deploy": "gh-pages -d build --remote droberts"
+    "deploy": "gh-pages -d build --remote origin"
   },
   "eslintConfig": {
     "extends": "react-app"
