@@ -13,7 +13,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "GENERATE_SOURCEMAP=false npm run build",
+    "predeploy": "GENERATE_SOURCEMAP=true npm run build",
     "deploy": "gh-pages -d build --remote origin"
   },
   "eslintConfig": {
