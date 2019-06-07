@@ -44,7 +44,6 @@ class Playlist extends Component {
   }
 
   toggleFavorite(index) {
-    // ugh where's Redux when you need it?
     const newState = this.state;
     const playlistTracks = newState.tracks;
     const track = playlistTracks[index];
