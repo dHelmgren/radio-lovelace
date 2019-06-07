@@ -5,14 +5,6 @@ import './styles/Playlist.css';
 import Track from './Track';
 
 class Playlist extends Component {
-
-  propTypes = {
-    tracks: PropTypes.array,
-    side: PropTypes.string,
-    toggleFavorite: PropTypes.func,
-    sendToTop: PropTypes.func,
-  }
-
   constructor(props) {
     super(props);
 
@@ -94,6 +86,13 @@ class Playlist extends Component {
       </div>
     );
   }
+}
+
+Playlist.propTypes = {
+  tracks: PropTypes.array,
+  side: PropTypes.string,
+  toggleFavorite: PropTypes.func,
+  sendToTop: PropTypes.func,
 }
 
 export default Playlist;
